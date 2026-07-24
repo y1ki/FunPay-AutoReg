@@ -40,7 +40,7 @@ class Config:
     accounts_filename: str = "acc.txt"
     proxies_filename: str = "proxies.txt"
     mail_filename: str = "mail.txt"
-    anti_captcha_api_key: str = "e1f72ea3d76556d76c225779d33d2ca5"
+    anti_captcha_api_key: str = "key"
 
     max_browsers: int = 10
     browser_headless: bool = False
@@ -82,7 +82,7 @@ class Config:
     )
 
     ads_power_api_base: str = "http://localhost:50325"
-    ads_power_api_key: str = "e4cf1cac956e81436db4d85148785714009587733954aaac"
+    ads_power_api_key: str = "key"
     ads_power_path: str = r"C:\Program Files\AdsPower Global"
     ads_power_group_id: str = "0"
     delete_profile_after_use: bool = True
